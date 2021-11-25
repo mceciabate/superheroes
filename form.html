@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link href="./css/styless.css" rel="stylesheet">
+    <title>Heroes</title>
+</head>
+<body>
+    <header>
+        <div>Descuentos 20% en todos los productos</div>
+    </header>
+    <nav>
+        <h1>Heroes</h1>
+    </nav>
+    <main>
+        <section id="top">
+            <article id="titulo">        
+                <h2 class="form">Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+            </article> 
+        <form action="#" method="post" id="formulario">
+            <span id="name">
+                <label for="nombre">Nombre (Campo Obligatorio)</label><input type="text" name="Nombre" id="nombre">
+            </span>
+            <span id="Fecha">
+                <label for="date">Fecha  <input type="date" name="date" id="date"></label></span>
+                <span id="des">
+                    <input type="text" name="descrip" value="Descripcion" id="des">
+                </span>
+                <span id="boton">
+                    <label for="boton"> <button id="boton" name="boton">Añadir</button></label>
+            </span> 
+            <span id="optionList">
+                <label for="especie">Especie(Campo obligatorio)</label>
+                <select name="especie">
+                    <option value="1">Humano</option>
+                    <option value="2">Extraterrestre</option>
+                    <option value="3">Ser mitológico</option>
+                    <option value="4">Ser espiritual</option>
+                    <option value="5">Ser mágico</option>
+                    <option value="6">Humanoide</option>
+                    <option value="7">Robot</option>
+                    <option value="8">Androide</option>
+                    <option value="9">Otro</option>
+                </select>
+            </span>
+            <span id="foto">
+                <label for="foto">Agregar Foto <input type="file" name="foto" id="foto" accept=".jpg" multiple></label>
+          
+            </span>
+            
+            <span id="poderes"> 
+                <ul type= "none">       
+                    <p>Poderes</p>
+                  <li><label for="check">Volar</label>
+                    <input type="checkbox" name="poderes" value="Volar" id="check"> </li>                    
+                    <li><label for="check">Superinteligencia</label>
+                    <input type="checkbox" name="poderes" value="inteligencia" id="check"></li>
+                   <li> <label for="check">Vista láser</label>
+                    <input type="checkbox" name="poderes" value=" láser" id="check"></li>
+                    <li><label for="check">Gran billetera</label>
+                    <input type="checkbox" name="poderes" value="dinero" id="check"></li>
+                </ul> 
+                </span>
+            <hr>
+
+            
+            <span id="tipoPersonaje">
+                <ul type= "none">
+                   <li>Tipo de personaje</li>
+                   <li><label for="tipo" name="h" >Heroe / Heroína</label>
+                    <input type="radio" name="tipo" id="tipo"></li>
+                   <li> <label for="tipo" name ="v">Villano /Villana</label>
+                    <input type="radio" name="tipo" id="tipo"></li>
+                </ul> 
+            </span>
+            
+            </form>   
+        </section>
+        
+        
+
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Front End I</p>
+    </footer>
+    
+</body>
+</html>
